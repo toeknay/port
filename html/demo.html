@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+
+
+<script>
+function includeHTML() {
+  var z, i, elmnt, file, xhttp;
+  /*loop through a collection of all HTML elements:*/
+  z = document.getElementsByTagName("*");
+  for (i = 0; i < z.length; i++) {
+    elmnt = z[i];
+    /*search for elements with a certain atrribute:*/
+    file = elmnt.getAttribute("include-html");
+    if (file) {
+      /*make an HTTP request using the attribute value as the file name:*/
+      xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4) {
+          if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+          if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+          /*remove the attribute, and call this function once more:*/
+          elmnt.removeAttribute("include-html");
+          includeHTML();
+        }
+      }
+      xhttp.open("GET", file, true);
+      xhttp.send();
+      /*exit the function:*/
+      return;
+    }
+  }
+};
+
+</script>
+
+<head>
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="SemiColonWeb" />
+
+	<!-- Stylesheets
+	============================================= -->
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Raleway:300,400,500,600,700|Crete+Round:400i" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="css/dark.css" type="text/css" />
+	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+	<link rel="stylesheet" href="css/animate.css" type="text/css" />
+	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+  <link rel="stylesheet" href="css/components/datepicker.css" type="text/css" />
+
+
+  <link rel="stylesheet" href="css/components/datepicker.css" type="text/css" />
+
+
+	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<link rel="stylesheet" href="css/custom.css" type="text/css" />
+
+	<!-- Document Title
+	============================================= -->
+	<title>Employee Managment Demo</title>
+
+<style>
+.form-group > label.error {
+	display: block !important;
+	text-transform: none;
+}
+
+.form-group input.valid ~ label.error,
+.form-group input[type="text"] ~ label.error,
+.form-group input[type="email"] ~ label.error,
+.form-group input[type="number"] ~ label.error,
+.form-group select ~ label.error,
+.form-group textarea ~ label.error { display: none !important; }
+</style>
+
+</head>
+
+<body class="stretched">
+
+
+	<!-- Document Wrapper
+	============================================= -->
+	<div id="wrapper" class="clearfix">
+
+		<!-- Header
+		============================================= -->
+		<header id="header" class="transparent-header">
+
+			<div id="header-wrap">
+
+				<div class="container clearfix">
+
+					<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+
+					<!-- Primary Navigation
+					============================================= -->
+					<nav id="primary-menu">
+
+						<ul>
+							<li><a href="index.html"><div>Home</div></a></li>
+
+							<li><a href="https://soundcloud.com/tpeteyy"><div>Music</div></a></li>
+
+							<li class="current"><a href="demo.html"><div>Demo</div></a></li>
+
+							<!-- <li><a href="profile.html"><div>Game</div></a></li> -->
+
+						</ul>
+
+					</nav><!-- #primary-menu end -->
+
+				</div>
+
+			</div>
+
+		</header><!-- #header end -->
+
+		<!-- Page Title
+		============================================= -->
+		<section id="page-title">
+
+			<div class="container clearfix">
+				<h1>Employee Managment Demo</h1>
+				<span>Canvas views on top of Golang hosting AWS EC2 server with Mysql database</span>
+			</div>
+
+		</section><!-- #page-title end -->
+
+		<!-- Content
+		============================================= -->
+		<section id="content">
+
+			<div class="content-wrap">
+
+				<div class="container clearfix">
+
+
+
+						<div class="row">
+
+							<div class="col-lg-6">
+
+                 <div class="form-widget">
+
+      						<div class="form-result"></div>
+
+        								<h3>Add Department</h3>
+
+        							<form class="row"  id="dept-add" enctype="multipart/form-data">
+        								<div class="col-12 form-group">
+        									<label>Department Name:</label>
+        									<input type="text" name="dept-add-name" id="dept-add-name" class="form-control" value="" placeholder="Enter your Department's Name">
+        								</div>
+        								<div class="col-12">
+        									<button type="submit" id="addDept-btn" name="dept-add-submit" class="btn btn-secondary">Add</button>
+        								</div>
+
+        								<input type="hidden" name="prefix" value="dept-add-">
+        							</form>
+
+                    </div>
+
+                    <div class="form-widget">
+
+                     <div class="form-result"></div>
+
+        							<h3>Add Department Manager</h3>
+
+        						<form class="row" id="dept-man-add" enctype="multipart/form-data">
+        							<div include-html="optDept-addDeptMan.html"></div>
+        							<div include-html="optEmp-addDeptMan.html"></div>
+                      <div class="input-daterange travel-date-group bottommargin-sm">
+                        <div class="col-12 form-group">
+            								<label for="">Start Date:</label>
+            								<input type="text" name="dept-man-add-date" id="dept-man-add-date" value="" class="form-control tleft default" placeholder="YYYY-MM-DD">
+            						</div>
+                      </div>
+        							<div class="col-12">
+        								<button type="submit" id="addDeptMan-btn" name="dept-man-add-submit" class="btn btn-secondary">Add</button>
+        							</div>
+
+        							<input type="hidden" name="prefix" value="dept-man-add-">
+        						</form>
+
+                  </div>
+
+                  <div class="form-widget">
+
+                   <div class="form-result"></div>
+
+        						<h3>Terminate Department Managment</h3>
+
+        						<form class="row" id="dept-man-term" enctype="multipart/form-data">
+        							<div include-html="optDeptMan-termDeptMan.html"></div>
+                      <div class="input-daterange travel-date-group bottommargin-sm">
+                        <div class="col-12 bottommargin-sm">
+            								<label for="">End Date:</label>
+            								<input type="text" name="dept-man-term-date" id="dept-man-term-date" value="" class="form-control tleft default" placeholder="YYYY-MM-DD">
+            						</div>
+                      </div>
+        							<div class="col-12">
+        								<button type="submit" id="termDeptMan-btn" name="dept-man-term-submit" class="btn btn-secondary">Terminate</button>
+        							</div>
+
+        							<input type="hidden" name="prefix" value="dept-man-term-">
+        						</form>
+
+                  </div>
+
+        							</div>
+
+        							<div class="col-lg-6 pl-lg-4">
+
+        							<h2>Departments</h2>
+
+        							<div include-html="dept.html"></div>
+
+        							<h2>Department Management</h2>
+
+        							<div include-html="dept-man.html"></div>
+
+        							<script>
+        								includeHTML();
+        							</script>
+
+
+
+        								<div class="clear"></div>
+
+        							</div>
+
+        						</div>
+
+        						<div class="divider divider-rounded"><i class="icon-connection-empty"></i></div>
+
+
+        						<div class="row">
+        							<div class="col-lg-6">
+
+                        <div class="form-widget">
+
+                         <div class="form-result"></div>
+
+        								<h3>Add Employee</h3>
+
+        							<form class="row" id="emp-add" enctype="multipart/form-data">
+        								<div class="col-6 form-group">
+        									<label>First Name:</label>
+        									<input type="text" name="emp-add-fname" id="emp-add-fname" class="form-control" value="" placeholder="Enter your Employee's First Name">
+        								</div>
+        								<div class="col-6 form-group">
+        									<label>Last Name:</label>
+        									<input type="text" name="emp-add-lname" id="emp-add-lname" class="form-control" value="" placeholder="Enter your Employee's Last Name">
+        								</div>
+        								<div include-html="optDept-addEmp.html"></div>
+        								<div class="col-md-6 form-group">
+        									<label>Title:</label>
+        									<input type="text" name="emp-add-title" id="emp-add-title" class="form-control" value="" placeholder="Enter your Employee's Title">
+        								</div>
+        								<div class="col-md-6 form-group">
+        									<label>Salary:</label>
+        									<input type="text" name="emp-add-salary" id="emp-add-salary" class="form-control" value="" placeholder="Enter your Employee's Salary">
+        								</div>
+                        <div class="input-daterange travel-date-group bottommargin-sm">
+                          <div class="col-12 bottommargin-sm">
+              								<label for="">Date of Birth:</label>
+              								<input type="text" name="emp-add-dob" id="emp-add-dob" value="" class="form-control tleft default" placeholder="YYYY-MM-DD">
+              						</div>
+                        </div>
+                        <div class="input-daterange travel-date-group bottommargin-sm">
+                          <div class="col-12 bottommargin-sm">
+              								<label for="">Start Date:</label>
+              								<input type="text" name="emp-add-start-date" id="emp-add-start-date" value="" class="form-control tleft default" placeholder="YYYY-MM-DD">
+              						</div>
+                        </div>
+        								<div class="col-12">
+        									<button type="submit" id="addEmp-btn" name="emp-add-submit" class="btn btn-secondary">Add</button>
+        								</div>
+
+        								<input type="hidden" name="prefix" value="emp-add-">
+        							</form>
+
+                    </div>
+
+                    <div class="form-widget">
+
+                     <div class="form-result"></div>
+
+        							<h3>Terminate Employee</h3>
+
+        							<form class="row" id="emp-term" enctype="multipart/form-data">
+        								<div include-html="optEmp-termEmp.html"></div>
+                        <div class="input-daterange travel-date-group bottommargin-sm">
+                          <div class="col-12 bottommargin-sm">
+              								<label for="">End Date:</label>
+              								<input type="text" name="emp-term-date" id="emp-term-date" value="" class="form-control tleft default" placeholder="YYYY-MM-DD">
+              						</div>
+                        </div>
+        								<div class="col-12">
+        									<button type="submit" id="termEmp-btn" name="emp-term-submit" class="btn btn-secondary">Terminate</button>
+        								</div>
+
+        								<input type="hidden" name="prefix" value="emp-term-">
+        							</form>
+
+                    </div>
+
+                    <div class="form-widget">
+
+                     <div class="form-result"></div>
+
+        							<h3>Add Supervision</h3>
+
+        						<form class="row" id="emp-sup-add" enctype="multipart/form-data">
+        							<div include-html="optEmp-addEmpSup1.html"></div>
+        							<div include-html="optEmp-addEmpSup2.html"></div>
+                      <div class="input-daterange travel-date-group bottommargin-sm">
+                        <div class="col-12 bottommargin-sm">
+                            <label for="">Start Date:</label>
+                            <input type="text" name="emp-sup-add-start-date" id="emp-sup-add-start-date" value="" class="form-control tleft default" placeholder="YYYY-MM-DD">
+                        </div>
+                      </div>
+        							<div class="col-12">
+        								<button type="submit" id="addEmpSup-btn" name="emp-sup-add-submit" class="btn btn-secondary">Add</button>
+        							</div>
+
+        							<input type="hidden" name="prefix" value="emp-sup-add-">
+        						</form>
+
+                  </div>
+
+                  <div class="form-widget">
+
+                   <div class="form-result"></div>
+
+        						<h3>Terminate Supervision</h3>
+
+        						<form class="row" id="emp-sup-term" enctype="multipart/form-data">
+        							<div include-html="optEmpSup-termEmpSup.html"></div>
+                      <div class="input-daterange travel-date-group bottommargin-sm">
+                        <div class="col-12 bottommargin-sm">
+                            <label for="">End Date:</label>
+                            <input type="text" name="emp-sup-term-date" id="emp-sup-term-date" value="" class="form-control tleft default" placeholder="YYYY-MM-DD">
+                        </div>
+                      </div>
+        							<div class="col-12">
+        								<button type="submit" id="termEmpSup-btn" name="emp-sup-term-submit" class="btn btn-secondary">Terminate</button>
+        							</div>
+
+        							<input type="hidden" name="prefix" value="emp-sup-term-">
+        						</form>
+
+                  </div>
+
+        							</div>
+
+        							<div class="col-lg-6 pl-lg-4">
+        								<h2>Employees</h2>
+
+        								<div include-html="emp.html"></div>
+
+        								<h2>Employee Supervision</h2>
+
+        								<div include-html="emp-sup.html"></div>
+
+
+        								<div class="clear"></div>
+
+        							</div>
+
+        						</div>
+
+        						<div class="divider divider-rounded"><i class="icon-connection-empty"></i></div>
+
+        						<div class="row">
+
+        							<div class="col-lg-6">
+
+                        <div class="form-widget">
+
+                         <div class="form-result"></div>
+
+        								<h3>Add Project</h3>
+
+        							<form class="row" id="pro-add" enctype="multipart/form-data">
+        								<div include-html="optDept-addPro.html"></div>
+        								<div include-html="optEmp-addPro.html"></div>
+        								<div class="col-md-6 form-group">
+        									<label>Project Description:</label>
+        									<input type="text" name="pro-add-desc" id="pro-add-desc" class="form-control" value="" placeholder="Enter your Project's Description">
+        								</div>
+                        <div class="input-daterange travel-date-group bottommargin-sm">
+                          <div class="col-12 bottommargin-sm">
+              								<label for="">Start Date:</label>
+              								<input type="text" name="pro-add-start-date" id="pro-add-start-date" value="" class="form-control tleft default" placeholder="YYYY-MM-DD">
+              						</div>
+                        </div>
+                        <div class="input-daterange travel-date-group bottommargin-sm">
+                          <div class="col-12 bottommargin-sm">
+              								<label for="">Due Date:</label>
+              								<input type="text" name="pro-add-due-date" id="pro-add-due-date" value="" class="form-control tleft default" placeholder="YYYY-MM-DD">
+              						</div>
+                        </div>
+        								<div class="col-12">
+        									<button type="submit" id="addPro-btn" name="pro-add-submit" class="btn btn-secondary">Add</button>
+        								</div>
+
+        								<input type="hidden" name="prefix" value="pro-add-">
+        							</form>
+
+                    </div>
+
+                    <div class="form-widget">
+
+                     <div class="form-result"></div>
+
+        							<h3>Terminate Project</h3>
+
+        							<form class="row" id="pro-term" enctype="multipart/form-data">
+        								<div include-html="optPro-termPro.html"></div>
+                        <div class="input-daterange travel-date-group bottommargin-sm">
+                          <div class="col-12 bottommargin-sm">
+                              <label for="">End Date:</label>
+                              <input type="text" name="pro-term-end-date" id="pro-term-end-date" value="" class="form-control tleft default" placeholder="YYYY-MM-DD">
+                          </div>
+                        </div>
+        								<div class="col-12">
+        									<button type="submit" id="termPro-btn" name="pro-term-submit" class="btn btn-secondary">Terminate</button>
+        								</div>
+
+        								<input type="hidden" name="prefix" value="pro-term-">
+        							</form>
+
+                    </div>
+
+        							</div>
+
+        							<div class="col-lg-6 pl-lg-4">
+
+        								<h2>Projects</h2>
+
+        								<div include-html="pro.html"></div>
+
+
+        								<div class="clear"></div>
+
+        							</div>
+
+        						</div>
+
+        						<div class="divider divider-rounded"><i class="icon-connection-empty"></i></div>
+
+        						<div class="row">
+
+        							<div class="col-lg-6">
+
+        								<h3>Assign Employee to Project</h3>
+
+                        <div class="form-widget">
+
+                         <div class="form-result"></div>
+
+        							<form class="row" id="emp-pro-add" enctype="multipart/form-data">
+        								<div include-html="optEmp-addEmpPro.html"></div>
+        								<div include-html="optPro-addEmpPro.html"></div>
+        								<div class="col-md-6 form-group">
+        									<label>Project Role:</label>
+        									<input type="text" name="emp-pro-add-role" id="emp-pro-add-role" class="form-control" value="" placeholder="Enter your Project's Description">
+        								</div>
+        								<div class="col-md-6 form-group">
+        									<label>Estimated Hours:</label>
+        									<input type="text" name="emp-pro-add-hour" id="emp-pro-add-hour" class="form-control" value="" placeholder="Enter your Project's Description">
+        								</div>
+                        <div class="input-daterange travel-date-group bottommargin-sm">
+                          <div class="col-12 bottommargin-sm">
+              								<label for="">Start Date:</label>
+              								<input type="text" name="emp-pro-add-start-date" id="emp-pro-add-start-date" value="" class="form-control tleft default" placeholder="YYYY-MM-DD">
+              						</div>
+                        </div>
+                        <div class="input-daterange travel-date-group bottommargin-sm">
+                          <div class="col-12 bottommargin-sm">
+              								<label for="">Due Date:</label>
+              								<input type="text" name="emp-pro-add-due-date" id="emp-pro-add-due-date" value="" class="form-control tleft default" placeholder="YYYY-MM-DD">
+              						</div>
+                        </div>
+        								<div class="col-12">
+        									<button type="submit" id="addEmpPro-btn" name="emp-pro-add-submit" class="btn btn-secondary">Add</button>
+        								</div>
+
+        								<input type="hidden" name="prefix" value="emp-pro-add-">
+        							</form>
+
+                    </div>
+
+        							<h3>Terminate Employee's work on Project</h3>
+
+                      <div class="form-widget">
+
+                       <div class="form-result"></div>
+
+        							<form class="row" id="emp-pro-term" enctype="multipart/form-data">
+        								<div include-html="optEmpPro-termEmpPro.html"></div>
+                        <div class="input-daterange travel-date-group bottommargin-sm">
+                          <div class="col-12 bottommargin-sm">
+                              <label for="">End Date:</label>
+                              <input type="text" name="emp-pro-term-end-date" id="emp-pro-term-end-date" value="" class="form-control tleft default" placeholder="YYYY-MM-DD">
+                          </div>
+                        </div>
+        								<div class="col-12">
+        									<button type="submit" id="termEmpPro-btn" name="emp-pro-term-submit" class="btn btn-secondary">Terminate</button>
+        								</div>
+
+        								<input type="hidden" name="prefix" value="emp-pro-term-">
+        							</form>
+
+                    </div>
+
+        							<h3>Log hours on Employees' Projects</h3>
+        							<h4>Start Work</h4>
+
+                      <div class="form-widget">
+
+                       <div class="form-result"></div>
+
+        						<form class="row" id="emp-pro-wrk-add" enctype="multipart/form-data">
+        							<div include-html="optEmpPro-addEmpProWrk.html"></div>
+        							<div class="col-12">
+        								<button type="submit" id="addEmpProWrk-btn" name="emp-pro-wrk-add-submit" class="btn btn-secondary">Start Work</button>
+        							</div>
+
+        							<input type="hidden" name="prefix" value="emp-pro-wrk-add-">
+        						</form>
+                  </div>
+
+        						<h4>End Work</h4>
+
+                    <div class="form-widget">
+
+                     <div class="form-result"></div>
+
+        					<form class="row" id="emp-pro-wrk-term" enctype="multipart/form-data">
+        						<div include-html="optEmpProWrk-termEmpProWrk.html"></div>
+        						<div class="col-12">
+        							<button type="submit" id="termEmpProWrk-btn" name="emp-pro-wrk-term-submit" class="btn btn-secondary">End Work</button>
+        						</div>
+
+        						<input type="hidden" name="prefix" value="emp-pro-wrk-term-">
+        					</form>
+                </div>
+
+        							</div>
+
+        							<div class="col-lg-6 pl-lg-4">
+        								<h2>Employees' Projects</h2>
+
+        								<div include-html="emp-pro.html"></div>
+
+        								<h2>Employees' Work</h2>
+
+        								<div include-html="emp-pro-wrk.html"></div>
+
+
+        								<div class="clear"></div>
+
+        							</div>
+
+        						</div>
+
+
+
+
+
+
+					</div>
+
+				</div>
+
+		</section><!-- #content end -->
+
+		<!-- Footer
+		============================================= -->
+		<footer id="footer" class="dark">
+
+			<div class="container">
+
+        <!-- Footer
+        ============================================= -->
+        <footer id="footer" class="dark">
+
+          <!-- Copyrights
+          ============================================= -->
+          <div id="copyrights">
+
+            <div class="container clearfix">
+
+              <div class="col_half">
+                Copyrights © 2020 All Rights Reserved.
+              </div>
+
+              <div class="col_half col_last tright">
+                <div class="copyrights-menu copyright-links fright clearfix">
+                  <a href="index.html"> Home </a>/<a href="https://soundcloud.com/tpeteyy"> Music </a>/<a href="demo.html"> Demo </a>
+                </div>
+                <div class="fright clearfix">
+
+                  <a href="https://github.com/toeknay?tab=repositories" class="social-icon si-small si-borderless nobottommargin si-github">
+                    <i class="icon-github"></i>
+                    <i class="icon-github"></i>
+                  </a>
+
+                  <a href="https://www.instagram.com/tpeteyy/?hl=en" class="social-icon si-small si-borderless nobottommargin si-instagram">
+                    <i class="icon-instagram"></i>
+                    <i class="icon-instagram"></i>
+                  </a>
+
+                  <a href="https://www.linkedin.com/in/anthony-peterson-9255b898/" class="social-icon si-small si-borderless nobottommargin si-linkedin">
+                    <i class="icon-linkedin"></i>
+                    <i class="icon-linkedin"></i>
+                  </a>
+                </div>
+              </div>
+
+            </div>
+
+          </div><!-- #copyrights end -->
+
+        </footer>
+        <!-- #footer end -->
+
+	</div><!-- #wrapper end -->
+
+	<!-- Go To Top
+	============================================= -->
+	<div id="gotoTop" class="icon-angle-up"></div>
+
+	<!-- External JavaScripts
+	============================================= -->
+	<script src="js/jquery.js"></script>
+	<script src="js/plugins.js"></script>
+  <script src="js/components/moment.js"></script>
+  <script src="js/components/datepicker.js"></script>
+
+	<!-- Footer Scripts
+	============================================= -->
+	<script src="js/functions.js"></script>
+
+	<script>
+		jQuery(document).ready( function(){
+
+		})
+
+  $(function() {
+    $('.travel-date-group .default').datepicker({
+      autoclose: true,
+      format: "yyyy-mm-dd",
+      todayHighlight: true
+    });
+
+  });
+
+	</script>
+
+  <script src="js/buttons.js"></script>
+
+</body>
+</html>

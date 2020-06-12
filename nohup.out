@@ -1,0 +1,656 @@
+
+   ____    __
+  / __/___/ /  ___
+ / _// __/ _ \/ _ \
+/___/\__/_//_/\___/ v4.1.16
+High performance, minimalist Go web framework
+https://echo.labstack.com
+____________________________________O/_______
+                                    O\
+⇨ https server started on [::]:443
+
+   ____    __
+  / __/___/ /  ___
+ / _// __/ _ \/ _ \
+/___/\__/_//_/\___/ v4.1.16
+High performance, minimalist Go web framework
+https://echo.labstack.com
+____________________________________O/_______
+                                    O\
+⇨ http server started on [::]:80
+{"time":"2020-06-12T23:02:40.443979465Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":413810,"latency_human":"413.81µs","bytes_in":0,"bytes_out":5837}
+{"time":"2020-06-12T23:02:49.318170675Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":135274,"latency_human":"135.274µs","bytes_in":0,"bytes_out":5837}
+db is connected
+<nil>
+{"time":"2020-06-12T23:03:20.222313048Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/demo.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":2725162,"latency_human":"2.725162ms","bytes_in":0,"bytes_out":23749}
+{"time":"2020-06-12T23:03:20.50992629Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/js/buttons.js","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":304,"error":"","latency":97238,"latency_human":"97.238µs","bytes_in":0,"bytes_out":0}
+db is connected
+<nil>
+{"time":"2020-06-12T23:03:20.855408352Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optDept-addDeptMan.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1407254,"latency_human":"1.407254ms","bytes_in":0,"bytes_out":436}
+db is connected
+<nil>
+{"time":"2020-06-12T23:03:20.92668414Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optEmp-addDeptMan.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1315097,"latency_human":"1.315097ms","bytes_in":0,"bytes_out":431}
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+{"time":"2020-06-12T23:03:21.002253875Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optDeptMan-termDeptMan.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":3354724,"latency_human":"3.354724ms","bytes_in":0,"bytes_out":311}
+db is connected
+<nil>
+{"time":"2020-06-12T23:03:21.073352527Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/dept.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1322105,"latency_human":"1.322105ms","bytes_in":0,"bytes_out":355}
+db is connected
+<nil>
+{"time":"2020-06-12T23:03:21.146190497Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/dept-man.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1100742,"latency_human":"1.100742ms","bytes_in":0,"bytes_out":425}
+db is connected
+<nil>
+{"time":"2020-06-12T23:03:21.281430096Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optDept-addEmp.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1393257,"latency_human":"1.393257ms","bytes_in":0,"bytes_out":428}
+db is connected
+<nil>
+{"time":"2020-06-12T23:03:21.359280786Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optEmp-termEmp.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1230724,"latency_human":"1.230724ms","bytes_in":0,"bytes_out":426}
+db is connected
+<nil>
+{"time":"2020-06-12T23:03:21.431543757Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optEmp-addEmpSup1.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1249602,"latency_human":"1.249602ms","bytes_in":0,"bytes_out":432}
+db is connected
+<nil>
+{"time":"2020-06-12T23:03:21.503179216Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optEmp-addEmpSup2.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1121967,"latency_human":"1.121967ms","bytes_in":0,"bytes_out":434}
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+{"time":"2020-06-12T23:03:21.578574621Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optEmpSup-termEmpSup.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":4964241,"latency_human":"4.964241ms","bytes_in":0,"bytes_out":375}
+db is connected
+<nil>
+{"time":"2020-06-12T23:03:21.652456146Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/emp.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1077924,"latency_human":"1.077924ms","bytes_in":0,"bytes_out":1493}
+db is connected
+<nil>
+{"time":"2020-06-12T23:03:21.833140033Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/emp-sup.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1256717,"latency_human":"1.256717ms","bytes_in":0,"bytes_out":1283}
+db is connected
+<nil>
+{"time":"2020-06-12T23:03:22.016671955Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optDept-addPro.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1301006,"latency_human":"1.301006ms","bytes_in":0,"bytes_out":427}
+db is connected
+<nil>
+{"time":"2020-06-12T23:03:22.08753565Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optEmp-addPro.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1136239,"latency_human":"1.136239ms","bytes_in":0,"bytes_out":425}
+db is connected
+<nil>
+{"time":"2020-06-12T23:03:22.159750354Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optPro-termPro.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1094882,"latency_human":"1.094882ms","bytes_in":0,"bytes_out":319}
+db is connected
+<nil>
+{"time":"2020-06-12T23:03:22.231961244Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/pro.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1071528,"latency_human":"1.071528ms","bytes_in":0,"bytes_out":729}
+db is connected
+<nil>
+{"time":"2020-06-12T23:03:22.409198671Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optEmp-addEmpPro.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1431778,"latency_human":"1.431778ms","bytes_in":0,"bytes_out":430}
+db is connected
+<nil>
+{"time":"2020-06-12T23:03:22.482321205Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optPro-addEmpPro.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1150226,"latency_human":"1.150226ms","bytes_in":0,"bytes_out":322}
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+{"time":"2020-06-12T23:03:22.558553877Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optEmpPro-termEmpPro.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":7138546,"latency_human":"7.138546ms","bytes_in":0,"bytes_out":489}
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+{"time":"2020-06-12T23:03:22.635001685Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optEmpPro-addEmpProWrk.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":6744851,"latency_human":"6.744851ms","bytes_in":0,"bytes_out":493}
+db is connected
+<nil>
+{"time":"2020-06-12T23:03:22.70524932Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optEmpProWrk-termEmpProWrk.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":924456,"latency_human":"924.456µs","bytes_in":0,"bytes_out":264}
+db is connected
+<nil>
+{"time":"2020-06-12T23:03:22.775455614Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/emp-pro.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1255668,"latency_human":"1.255668ms","bytes_in":0,"bytes_out":894}
+db is connected
+<nil>
+{"time":"2020-06-12T23:03:22.954662323Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/emp-pro-wrk.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1341446,"latency_human":"1.341446ms","bytes_in":0,"bytes_out":439}
+{"time":"2020-06-12T23:03:30.055461868Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":104191,"latency_human":"104.191µs","bytes_in":0,"bytes_out":5837}
+db is connected
+<nil>
+{"time":"2020-06-12T23:03:42.980948647Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/demo.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1624357,"latency_human":"1.624357ms","bytes_in":0,"bytes_out":23749}
+db is connected
+<nil>
+{"time":"2020-06-12T23:03:43.251549916Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optDept-addDeptMan.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1234285,"latency_human":"1.234285ms","bytes_in":0,"bytes_out":436}
+db is connected
+<nil>
+{"time":"2020-06-12T23:03:43.342437722Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optEmp-addDeptMan.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1266176,"latency_human":"1.266176ms","bytes_in":0,"bytes_out":431}
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+{"time":"2020-06-12T23:03:43.443555493Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optDeptMan-termDeptMan.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":3238128,"latency_human":"3.238128ms","bytes_in":0,"bytes_out":311}
+db is connected
+<nil>
+{"time":"2020-06-12T23:03:43.511036657Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/dept.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1171507,"latency_human":"1.171507ms","bytes_in":0,"bytes_out":355}
+db is connected
+<nil>
+{"time":"2020-06-12T23:03:43.578141001Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/dept-man.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1294337,"latency_human":"1.294337ms","bytes_in":0,"bytes_out":425}
+db is connected
+<nil>
+{"time":"2020-06-12T23:03:43.650233821Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optDept-addEmp.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1196002,"latency_human":"1.196002ms","bytes_in":0,"bytes_out":428}
+db is connected
+<nil>
+{"time":"2020-06-12T23:03:58.278845658Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/demo.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1614000,"latency_human":"1.614ms","bytes_in":0,"bytes_out":23749}
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:08.180367186Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optDept-addEmp.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1324289,"latency_human":"1.324289ms","bytes_in":0,"bytes_out":428}
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:08.26030239Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optEmp-termEmp.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1257704,"latency_human":"1.257704ms","bytes_in":0,"bytes_out":426}
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:08.33912779Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optEmp-addEmpSup1.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1269248,"latency_human":"1.269248ms","bytes_in":0,"bytes_out":432}
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:08.41715999Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optEmp-addEmpSup2.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1416882,"latency_human":"1.416882ms","bytes_in":0,"bytes_out":434}
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:08.499478712Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optEmpSup-termEmpSup.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":5290220,"latency_human":"5.29022ms","bytes_in":0,"bytes_out":375}
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:08.578164154Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/emp.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1292961,"latency_human":"1.292961ms","bytes_in":0,"bytes_out":1493}
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:08.660985161Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/emp-sup.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1477818,"latency_human":"1.477818ms","bytes_in":0,"bytes_out":1283}
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:08.745044843Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optDept-addPro.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1345052,"latency_human":"1.345052ms","bytes_in":0,"bytes_out":427}
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:08.871950879Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optDept-addDeptMan.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1288493,"latency_human":"1.288493ms","bytes_in":0,"bytes_out":436}
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:08.957426909Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optEmp-addDeptMan.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1378785,"latency_human":"1.378785ms","bytes_in":0,"bytes_out":431}
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:09.05579565Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optDeptMan-termDeptMan.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":3388683,"latency_human":"3.388683ms","bytes_in":0,"bytes_out":311}
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:09.137758183Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/dept.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1306617,"latency_human":"1.306617ms","bytes_in":0,"bytes_out":355}
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:09.216468268Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/dept-man.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1474307,"latency_human":"1.474307ms","bytes_in":0,"bytes_out":425}
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:09.29341185Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optDept-addEmp.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1304242,"latency_human":"1.304242ms","bytes_in":0,"bytes_out":428}
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:09.373202639Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optEmp-termEmp.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1496426,"latency_human":"1.496426ms","bytes_in":0,"bytes_out":426}
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:09.453397629Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optEmp-addEmpSup1.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1347326,"latency_human":"1.347326ms","bytes_in":0,"bytes_out":432}
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:09.531768114Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optEmp-addEmpSup2.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1335301,"latency_human":"1.335301ms","bytes_in":0,"bytes_out":434}
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:09.613246472Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optEmpSup-termEmpSup.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":5300915,"latency_human":"5.300915ms","bytes_in":0,"bytes_out":375}
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:09.690730549Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/emp.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1335756,"latency_human":"1.335756ms","bytes_in":0,"bytes_out":1493}
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:09.769057025Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/emp-sup.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1164273,"latency_human":"1.164273ms","bytes_in":0,"bytes_out":1283}
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:09.845919006Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optDept-addPro.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1156056,"latency_human":"1.156056ms","bytes_in":0,"bytes_out":427}
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:09.920700623Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optEmp-addPro.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1070834,"latency_human":"1.070834ms","bytes_in":0,"bytes_out":425}
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:10.000170026Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optPro-termPro.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1114205,"latency_human":"1.114205ms","bytes_in":0,"bytes_out":319}
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:10.077924498Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/pro.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1255896,"latency_human":"1.255896ms","bytes_in":0,"bytes_out":729}
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:10.154958752Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optEmp-addEmpPro.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1314205,"latency_human":"1.314205ms","bytes_in":0,"bytes_out":430}
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:10.233237079Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optPro-addEmpPro.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":993399,"latency_human":"993.399µs","bytes_in":0,"bytes_out":322}
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:10.315970838Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optEmpPro-termEmpPro.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":6801599,"latency_human":"6.801599ms","bytes_in":0,"bytes_out":489}
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:10.403171695Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optEmpPro-addEmpProWrk.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":7107639,"latency_human":"7.107639ms","bytes_in":0,"bytes_out":493}
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:10.481451757Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optEmpProWrk-termEmpProWrk.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1117250,"latency_human":"1.11725ms","bytes_in":0,"bytes_out":264}
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:10.560598626Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/emp-pro.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1090187,"latency_human":"1.090187ms","bytes_in":0,"bytes_out":894}
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:10.638617472Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/emp-pro-wrk.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":977662,"latency_human":"977.662µs","bytes_in":0,"bytes_out":439}
+{"time":"2020-06-12T23:04:20.484495277Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":94492,"latency_human":"94.492µs","bytes_in":0,"bytes_out":5837}
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:28.840579042Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/demo.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1638224,"latency_human":"1.638224ms","bytes_in":0,"bytes_out":23749}
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:29.19733551Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optDept-addDeptMan.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1233697,"latency_human":"1.233697ms","bytes_in":0,"bytes_out":436}
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:29.378036712Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optEmp-addDeptMan.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1339409,"latency_human":"1.339409ms","bytes_in":0,"bytes_out":431}
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:29.476029991Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optDeptMan-termDeptMan.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":2982604,"latency_human":"2.982604ms","bytes_in":0,"bytes_out":311}
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:29.574224894Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/dept.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1148969,"latency_human":"1.148969ms","bytes_in":0,"bytes_out":355}
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:29.667190111Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/dept-man.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1121712,"latency_human":"1.121712ms","bytes_in":0,"bytes_out":425}
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:29.762922461Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optDept-addEmp.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1196109,"latency_human":"1.196109ms","bytes_in":0,"bytes_out":428}
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:29.862986987Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optEmp-termEmp.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1327382,"latency_human":"1.327382ms","bytes_in":0,"bytes_out":426}
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:29.96899141Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optEmp-addEmpSup1.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1337148,"latency_human":"1.337148ms","bytes_in":0,"bytes_out":432}
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:30.072691581Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optEmp-addEmpSup2.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1404655,"latency_human":"1.404655ms","bytes_in":0,"bytes_out":434}
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:30.171299062Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optEmpSup-termEmpSup.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":5285747,"latency_human":"5.285747ms","bytes_in":0,"bytes_out":375}
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:30.257174934Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/emp.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1698453,"latency_human":"1.698453ms","bytes_in":0,"bytes_out":1493}
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:30.343587991Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/emp-sup.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1241844,"latency_human":"1.241844ms","bytes_in":0,"bytes_out":1283}
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:30.42583201Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optDept-addPro.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1241962,"latency_human":"1.241962ms","bytes_in":0,"bytes_out":427}
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:30.50813893Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optEmp-addPro.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1352683,"latency_human":"1.352683ms","bytes_in":0,"bytes_out":425}
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:30.592083622Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optPro-termPro.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1256181,"latency_human":"1.256181ms","bytes_in":0,"bytes_out":319}
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:30.685487573Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/pro.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1341788,"latency_human":"1.341788ms","bytes_in":0,"bytes_out":729}
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:30.776506608Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optEmp-addEmpPro.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1367260,"latency_human":"1.36726ms","bytes_in":0,"bytes_out":430}
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:30.869374067Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optPro-addEmpPro.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1316876,"latency_human":"1.316876ms","bytes_in":0,"bytes_out":322}
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:30.963900826Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optEmpPro-termEmpPro.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":7154486,"latency_human":"7.154486ms","bytes_in":0,"bytes_out":489}
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:31.057233345Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optEmpPro-addEmpProWrk.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":6995486,"latency_human":"6.995486ms","bytes_in":0,"bytes_out":493}
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:31.142867157Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optEmpProWrk-termEmpProWrk.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1119064,"latency_human":"1.119064ms","bytes_in":0,"bytes_out":264}
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:31.224372478Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/emp-pro.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1334414,"latency_human":"1.334414ms","bytes_in":0,"bytes_out":894}
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:31.306062501Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/emp-pro-wrk.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1242034,"latency_human":"1.242034ms","bytes_in":0,"bytes_out":439}
+{"time":"2020-06-12T23:04:38.874193794Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":127424,"latency_human":"127.424µs","bytes_in":0,"bytes_out":5837}
+{"time":"2020-06-12T23:04:39.209700539Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/css/dark.css","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1958532,"latency_human":"1.958532ms","bytes_in":0,"bytes_out":54972}
+{"time":"2020-06-12T23:04:39.21363067Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/css/animate.css","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1828009,"latency_human":"1.828009ms","bytes_in":0,"bytes_out":77937}
+{"time":"2020-06-12T23:04:39.215297568Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/css/magnific-popup.css","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1438229,"latency_human":"1.438229ms","bytes_in":0,"bytes_out":7332}
+{"time":"2020-06-12T23:04:39.304138003Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/css/responsive.css","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1360336,"latency_human":"1.360336ms","bytes_in":0,"bytes_out":44943}
+{"time":"2020-06-12T23:04:39.380802733Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/css/font-icons.css","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":170968003,"latency_human":"170.968003ms","bytes_in":0,"bytes_out":114029}
+{"time":"2020-06-12T23:04:39.541573439Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/css/bootstrap.css","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":573495399,"latency_human":"573.495399ms","bytes_in":0,"bytes_out":189421}
+{"time":"2020-06-12T23:04:39.639914854Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/js/jquery.js","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":89917472,"latency_human":"89.917472ms","bytes_in":0,"bytes_out":88145}
+{"time":"2020-06-12T23:04:39.829479471Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/js/functions.js","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":90818830,"latency_human":"90.81883ms","bytes_in":0,"bytes_out":134716}
+{"time":"2020-06-12T23:04:40.065514055Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/style.css","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":860387603,"latency_human":"860.387603ms","bytes_in":0,"bytes_out":319763}
+{"time":"2020-06-12T23:04:41.07805794Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/js/plugins.js","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1500626594,"latency_human":"1.500626594s","bytes_in":0,"bytes_out":626645}
+{"time":"2020-06-12T23:04:42.380509393Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/images/parallax/3.jpg","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":2101187,"latency_human":"2.101187ms","bytes_in":0,"bytes_out":31568}
+{"time":"2020-06-12T23:04:42.385310739Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/images/home.jpg","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":8143260,"latency_human":"8.14326ms","bytes_in":0,"bytes_out":227243}
+{"time":"2020-06-12T23:04:42.999730224Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/images/home2.jpg","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":621675618,"latency_human":"621.675618ms","bytes_in":0,"bytes_out":373109}
+{"time":"2020-06-12T23:04:43.456557497Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/css/fonts/font-icons.woff","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":977947153,"latency_human":"977.947153ms","bytes_in":0,"bytes_out":543120}
+{"time":"2020-06-12T23:04:43.518050918Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/images/home3.png","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1138430507,"latency_human":"1.138430507s","bytes_in":0,"bytes_out":544241}
+{"time":"2020-06-12T23:04:49.840197418Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/demo.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":401,"error":"code=401, message=Unauthorized","latency":48413,"latency_human":"48.413µs","bytes_in":0,"bytes_out":27}
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:58.445066763Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/demo.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1524589,"latency_human":"1.524589ms","bytes_in":0,"bytes_out":23749}
+{"time":"2020-06-12T23:04:58.658887191Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/css/components/datepicker.css","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":831380,"latency_human":"831.38µs","bytes_in":0,"bytes_out":15731}
+{"time":"2020-06-12T23:04:58.659276262Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/css/custom.css","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":716276,"latency_human":"716.276µs","bytes_in":0,"bytes_out":278}
+{"time":"2020-06-12T23:04:58.660445449Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/js/buttons.js","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":116124,"latency_human":"116.124µs","bytes_in":0,"bytes_out":9161}
+{"time":"2020-06-12T23:04:58.660631215Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/js/components/datepicker.js","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1023376,"latency_human":"1.023376ms","bytes_in":0,"bytes_out":33693}
+{"time":"2020-06-12T23:04:58.661998927Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/js/components/moment.js","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":2018237,"latency_human":"2.018237ms","bytes_in":0,"bytes_out":131542}
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:58.763541705Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optDept-addDeptMan.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1242901,"latency_human":"1.242901ms","bytes_in":0,"bytes_out":436}
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:58.935013042Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optEmp-addDeptMan.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1955312,"latency_human":"1.955312ms","bytes_in":0,"bytes_out":431}
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:59.037051905Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optDeptMan-termDeptMan.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":3265268,"latency_human":"3.265268ms","bytes_in":0,"bytes_out":311}
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:59.132282071Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/dept.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1245825,"latency_human":"1.245825ms","bytes_in":0,"bytes_out":355}
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:59.281321054Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/dept-man.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1277511,"latency_human":"1.277511ms","bytes_in":0,"bytes_out":425}
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:59.37408683Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optDept-addEmp.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1230196,"latency_human":"1.230196ms","bytes_in":0,"bytes_out":428}
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:59.465622156Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optEmp-termEmp.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1261677,"latency_human":"1.261677ms","bytes_in":0,"bytes_out":426}
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:59.55529064Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optEmp-addEmpSup1.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1323299,"latency_human":"1.323299ms","bytes_in":0,"bytes_out":432}
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:59.64300861Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optEmp-addEmpSup2.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1274921,"latency_human":"1.274921ms","bytes_in":0,"bytes_out":434}
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:59.730022889Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optEmpSup-termEmpSup.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":5383821,"latency_human":"5.383821ms","bytes_in":0,"bytes_out":375}
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:59.820841432Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/emp.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1451508,"latency_human":"1.451508ms","bytes_in":0,"bytes_out":1493}
+db is connected
+<nil>
+{"time":"2020-06-12T23:04:59.909842894Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/emp-sup.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1290989,"latency_human":"1.290989ms","bytes_in":0,"bytes_out":1283}
+db is connected
+<nil>
+{"time":"2020-06-12T23:05:00.002907181Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optDept-addPro.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1216869,"latency_human":"1.216869ms","bytes_in":0,"bytes_out":427}
+db is connected
+<nil>
+{"time":"2020-06-12T23:05:00.0921556Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optEmp-addPro.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1250502,"latency_human":"1.250502ms","bytes_in":0,"bytes_out":425}
+db is connected
+<nil>
+{"time":"2020-06-12T23:05:00.188614158Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optPro-termPro.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1234163,"latency_human":"1.234163ms","bytes_in":0,"bytes_out":319}
+db is connected
+<nil>
+{"time":"2020-06-12T23:05:00.285904607Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/pro.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1325340,"latency_human":"1.32534ms","bytes_in":0,"bytes_out":729}
+db is connected
+<nil>
+{"time":"2020-06-12T23:05:00.373723068Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optEmp-addEmpPro.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1334633,"latency_human":"1.334633ms","bytes_in":0,"bytes_out":430}
+db is connected
+<nil>
+{"time":"2020-06-12T23:05:00.465484837Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optPro-addEmpPro.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1323249,"latency_human":"1.323249ms","bytes_in":0,"bytes_out":322}
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+{"time":"2020-06-12T23:05:00.862657655Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optEmpPro-termEmpPro.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":7495356,"latency_human":"7.495356ms","bytes_in":0,"bytes_out":489}
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+{"time":"2020-06-12T23:05:00.961567886Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optEmpPro-addEmpProWrk.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":7724098,"latency_human":"7.724098ms","bytes_in":0,"bytes_out":493}
+db is connected
+<nil>
+{"time":"2020-06-12T23:05:01.058894218Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optEmpProWrk-termEmpProWrk.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1271258,"latency_human":"1.271258ms","bytes_in":0,"bytes_out":264}
+db is connected
+<nil>
+{"time":"2020-06-12T23:05:01.158477355Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/emp-pro.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1326047,"latency_human":"1.326047ms","bytes_in":0,"bytes_out":894}
+db is connected
+<nil>
+{"time":"2020-06-12T23:05:01.258897379Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/emp-pro-wrk.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1783671,"latency_human":"1.783671ms","bytes_in":0,"bytes_out":439}
+db is connected
+<nil>
+{0xc00043c180 0xc000446690}
+{"time":"2020-06-12T23:05:10.366569129Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"POST","uri":"/addDeptMan","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"code=200, message=Department Manager Added","latency":3407956,"latency_human":"3.407956ms","bytes_in":48,"bytes_out":39}
+db is connected
+<nil>
+{"time":"2020-06-12T23:05:10.371533934Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/demo.html?optDept-addDeptMan=5&optEmp-addDeptMan=10&dept-man-add-date=2020-06-12&prefix=dept-man-add-&dept-man-add-submit=&_=1592003098967","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1282458,"latency_human":"1.282458ms","bytes_in":0,"bytes_out":23749}
+db is connected
+<nil>
+{"time":"2020-06-12T23:05:10.466709592Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/demo.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1485525,"latency_human":"1.485525ms","bytes_in":0,"bytes_out":23749}
+db is connected
+<nil>
+{"time":"2020-06-12T23:05:10.669940228Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optDept-addDeptMan.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1210464,"latency_human":"1.210464ms","bytes_in":0,"bytes_out":436}
+db is connected
+<nil>
+{"time":"2020-06-12T23:05:10.809883718Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optEmp-addDeptMan.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1259830,"latency_human":"1.25983ms","bytes_in":0,"bytes_out":431}
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+{"time":"2020-06-12T23:05:10.892416288Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optDeptMan-termDeptMan.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":5051085,"latency_human":"5.051085ms","bytes_in":0,"bytes_out":364}
+db is connected
+<nil>
+{"time":"2020-06-12T23:05:10.972864944Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/dept.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1276955,"latency_human":"1.276955ms","bytes_in":0,"bytes_out":355}
+db is connected
+<nil>
+{"time":"2020-06-12T23:05:11.054950975Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/dept-man.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1257335,"latency_human":"1.257335ms","bytes_in":0,"bytes_out":503}
+db is connected
+<nil>
+{"time":"2020-06-12T23:05:11.137168694Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optDept-addEmp.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1134165,"latency_human":"1.134165ms","bytes_in":0,"bytes_out":428}
+db is connected
+<nil>
+{"time":"2020-06-12T23:05:11.219088051Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optEmp-termEmp.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1196514,"latency_human":"1.196514ms","bytes_in":0,"bytes_out":426}
+db is connected
+<nil>
+{"time":"2020-06-12T23:05:11.299963271Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optEmp-addEmpSup1.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1241119,"latency_human":"1.241119ms","bytes_in":0,"bytes_out":432}
+db is connected
+<nil>
+{"time":"2020-06-12T23:05:11.380624351Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optEmp-addEmpSup2.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1224042,"latency_human":"1.224042ms","bytes_in":0,"bytes_out":434}
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+{"time":"2020-06-12T23:05:11.469851265Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optEmpSup-termEmpSup.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":5233103,"latency_human":"5.233103ms","bytes_in":0,"bytes_out":375}
+db is connected
+<nil>
+{"time":"2020-06-12T23:05:11.551118383Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/emp.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1364860,"latency_human":"1.36486ms","bytes_in":0,"bytes_out":1493}
+db is connected
+<nil>
+{"time":"2020-06-12T23:05:11.634683495Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/emp-sup.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1322669,"latency_human":"1.322669ms","bytes_in":0,"bytes_out":1283}
+db is connected
+<nil>
+{"time":"2020-06-12T23:05:11.717805604Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optDept-addPro.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1244308,"latency_human":"1.244308ms","bytes_in":0,"bytes_out":427}
+db is connected
+<nil>
+{"time":"2020-06-12T23:05:11.801767283Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optEmp-addPro.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1312746,"latency_human":"1.312746ms","bytes_in":0,"bytes_out":425}
+db is connected
+<nil>
+{"time":"2020-06-12T23:05:11.884734393Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optPro-termPro.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1273158,"latency_human":"1.273158ms","bytes_in":0,"bytes_out":319}
+db is connected
+<nil>
+{"time":"2020-06-12T23:05:11.980612166Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/pro.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1245639,"latency_human":"1.245639ms","bytes_in":0,"bytes_out":729}
+db is connected
+<nil>
+{"time":"2020-06-12T23:05:12.090094564Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optEmp-addEmpPro.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1315978,"latency_human":"1.315978ms","bytes_in":0,"bytes_out":430}
+db is connected
+<nil>
+{"time":"2020-06-12T23:05:12.199671862Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optPro-addEmpPro.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1206976,"latency_human":"1.206976ms","bytes_in":0,"bytes_out":322}
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+{"time":"2020-06-12T23:05:12.3035739Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optEmpPro-termEmpPro.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":7501651,"latency_human":"7.501651ms","bytes_in":0,"bytes_out":489}
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+db is connected
+<nil>
+{"time":"2020-06-12T23:05:12.403128962Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optEmpPro-addEmpProWrk.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":7081754,"latency_human":"7.081754ms","bytes_in":0,"bytes_out":493}
+db is connected
+<nil>
+{"time":"2020-06-12T23:05:12.491260714Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/optEmpProWrk-termEmpProWrk.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":921998,"latency_human":"921.998µs","bytes_in":0,"bytes_out":264}
+db is connected
+<nil>
+{"time":"2020-06-12T23:05:12.577643309Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/emp-pro.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":1103501,"latency_human":"1.103501ms","bytes_in":0,"bytes_out":894}
+db is connected
+<nil>
+{"time":"2020-06-12T23:05:12.663071046Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/emp-pro-wrk.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":986646,"latency_human":"986.646µs","bytes_in":0,"bytes_out":439}
+{"time":"2020-06-12T23:05:20.750613262Z","id":"","remote_ip":"64.136.147.112","host":"tpetey.com","method":"GET","uri":"/index.html","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36","status":200,"error":"","latency":173242,"latency_human":"173.242µs","bytes_in":0,"bytes_out":9425}
